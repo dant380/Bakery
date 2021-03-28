@@ -10,3 +10,4 @@
 <ul>
   <li>gulp-file-include</li>
   <li>gulp-sass</li>
+  <p> and put file gulpfile.js in project folder</p>
