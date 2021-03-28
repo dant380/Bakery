@@ -3,7 +3,10 @@
 <p> folder: "dist" - complete distribution for uploading to hosting</p>
 <p>folder: "src" - work files for the developer work</p>
 <p>for correctly work folder "src" you need:</p>
-1) gulp
-and extentension for him:
-1) gulp-file-include
-2) gulp-sass
+<ul>
+  <li> gulp </li>
+</ul>
+<p>and extentension for him:</p>
+<ul>
+  <li>gulp-file-include</li>
+  <li>gulp-sass</li>
