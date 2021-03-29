@@ -1,0 +1,52 @@
+@import "fonts.scss";
+@import "null.scss"; //обнуление css
+
+body {
+}
+
+@import "header.scss";
+
+.top-banner {
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  &__container {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    max-width: 765px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin: 213px 0 0 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 92px;
+    font-family: "Playfair Display";
+    line-height: 24px;
+    letter-spacing: 6px;
+    text-shadow: 0 1px 0 #3d3029;
+  }
+
+  &__subtitle {
+    align-self: center;
+    max-width: 544px;
+    margin: 136px 0 0 0;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Proxima Nova";
+    line-height: 36px;
+    letter-spacing: 2.4px;
+    text-align: center;
+    text-shadow: 0 1px 0 #3d3029;
+  }
+
+  &__btn {
+  }
+}
