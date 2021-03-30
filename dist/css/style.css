@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display";
   line-height: 24px;
   letter-spacing: 6px;
-  text-shadow: 0 1px 0 #3d3029;
+  text-shadow: 0 3px 0 #3d3029;
 }
 
 .top-banner__subtitle {
@@ -248,4 +248,84 @@ h1, h2, h3, h4, h5, h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.about-us {
+  background-image: linear-gradient(-135deg, #c4b9ae 0%, #fff 100%);
+}
+
+.about-us__container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1177px;
+  margin: 0 auto;
+  padding: 48px 0 0 0;
+}
+
+.about-us__text {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us__title {
+  color: #56534c;
+  font-size: 48px;
+  font-family: Alegreya;
+  letter-spacing: 1.2px;
+}
+
+.about-us__subtitle {
+  margin: 0 0 70px 0;
+  color: #a47d5e;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: Alegreya;
+  line-height: 30px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.about-us__content-text {
+  max-width: 484px;
+  margin: 0 0 45px 0;
+  color: #56534c;
+  font-size: 14px;
+  font-family: "Proxima Nova";
+  line-height: 24px;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+.about-us__persona-title {
+  color: #56534c;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Alegreya;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+
+.about-us__persona-item {
+  display: flex;
+}
+
+.about-us__persona-name {
+  align-self: center;
+  padding: 19px 22px;
+  color: #56534c;
+  font-size: 24px;
+  font-family: Alegreya;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  border: 1px solid #d7d5ca;
+  border-right: none;
+  border-left: none;
+}
+
+.about-us__persona-photo {
+  margin: 0 25px;
 }
