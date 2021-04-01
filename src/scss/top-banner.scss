@@ -41,7 +41,7 @@
 
   &__btn {
     position: relative;
-    margin: 70px 0 0 0;
+    margin: 70px 0 237px 0;
     padding: 20px 50px;
     color: #fff;
     font-weight: 700;
@@ -52,29 +52,5 @@
     text-transform: uppercase;
     background: rgba(86, 83, 76, 0.7);
     border-radius: 15px;
-  }
-
-  &__icon {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    margin: 180px 0 0 0;
-    background: #fff;
-    border-radius: 50%;
-    box-shadow: 0 8px 9px rgba(0, 0, 0, 0.87);
-  }
-
-  &__icon-item1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  &__icon-item2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 }
